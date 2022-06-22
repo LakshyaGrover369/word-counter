@@ -1,0 +1,109 @@
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background: url('https://1.bp.blogspot.com/-oLEpMgDDtnk/YNg0dtkdPeI/AAAAAAAAA_A/dSTQNnAX5VIfDeMdxKN726nJqAzHKQxWgCLcBGAsYHQ/s890/random-letters-english-alphabet-background-design-vector-23973718.jpg') ;
+    }
+    #mainSection{
+        margin: auto;
+        width: 80%;    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #mainSection h1{
+        height: 8.5vh;
+        text-align: center;
+        color: white;
+        display: flex;
+        align-items: center;
+        margin: 2.5%;
+        padding: 0.5% 2%;
+        background-image: linear-gradient(180deg,rgb(59, 162, 209),rgb(0, 0, 0),rgb(59, 162, 209)) ;
+    }
+    #mainSection textarea{
+        padding: 1%;
+        height: 45vh;
+        width: 60%;
+        font-size: 18px;
+        font-weight: 3px;
+        color: white;
+      background-image: linear-gradient(720deg,rgb(0, 0, 0),rgb(59, 162, 209),rgb(0, 0, 0)) ;
+    }
+    #mainSection button{
+        margin: 2.5% 0%;
+        padding: 1.2% 8%;
+        background-image: linear-gradient(180deg,rgb(0, 0, 0),rgb(59, 162, 209)) ;
+        border: 2px black solid;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+        border-radius: 10px;
+        opacity: 0.92;
+        
+    }
+    #mainSection button:hover{
+        background-image: linear-gradient(rgb(0, 114, 167),rgb(148, 221, 255),rgb(0, 114, 167));
+        opacity: 1;
+        color:black;
+    }
+   
+    #Alloutput{
+        display: flex;
+        width: 100%;
+    }
+
+    #output{
+       background-image:linear-gradient(rgb(30, 27, 182),rgb(59, 162, 209),rgb(30, 27, 182));
+        height: auto;
+        width: 40%;
+        font-size:large;
+        margin: 1% 2%;
+        padding: 1%;
+        color: white;
+        text-align: center;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #outputOfRepeatition{
+        background-image:linear-gradient(rgb(30, 27, 182),rgb(59, 162, 209),rgb(30, 27, 182));
+        height: auto;
+        width: 40%;
+        font-size:large;
+        margin: 1% 2%;
+        padding: 1%;
+        color: white;
+        text-align: center;
+        border-radius: 15px;
+
+    }
+
+
+    @media screen and (max-width:600px) {
+        #mainSection textarea{
+            width: 80%;
+        }
+        #output{
+            width: 50%;
+        }
+        #outputOfRepeatition{
+            width: 50%;
+        }
+    }
+    @media screen and (max-width:420px) {
+        #mainSection textarea{
+            width: 95%;
+        }
+        #output{
+            width: 82%;
+        }
+        #outputOfRepeatition{
+            width: 50%;
+        }
+    }
